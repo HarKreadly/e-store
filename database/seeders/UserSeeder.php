@@ -17,6 +17,7 @@ class UserSeeder extends Seeder
             'email' => 'admin@example.com',
             'password' => Hash::make('admin'),
             'role' => 'admin',
+            'status' => 'active',
         ]);
 
         // Normal Users
